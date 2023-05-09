@@ -17,5 +17,6 @@ stdin.on('data', data => {
 });
 
 process.addListener('SIGINT', () => {
+  console.log("bye");
   process.exit();
 });
