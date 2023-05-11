@@ -44,5 +44,4 @@ async function buildPage() {
     console.error('Ошибка:', err);
   }
 }
-
 buildPage();
